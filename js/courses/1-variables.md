@@ -47,4 +47,7 @@ En Javascript, il existe plusieurs types de variables.
 - Le Boolean => c'est un vrai / faux (true / false)
 - Le Number => c'est un chiffre ou un nombre (3, 29, -4, 284740297, 3.14628)
 - Le String => c'est une chaîne de caractère (et non un vêtement), il est entouré de guillemets. Ex: "Bonjour", "Mayonnaise", "Fesse"
-- Le type "undefined" => c'est le type "non défini" ou "vide"
+- Le type "undefined" => c'est le type "non défini"
+- Le type "null" => c'est le type "vide"
+- Le type Array => c'est le type Tableau
+- Le type Object => c'est le type Objet
