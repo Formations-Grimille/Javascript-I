@@ -1,8 +1,23 @@
+/*
+------------------------------------------------------
+TP 7: Mode d'affichage d'un OS
+------------------------------------------------------
+
+- Demander à l'utilisateur d'entrer le nom d'un système d'exploitation.
+- Changer le mode d'affichage selon le tableau suivant
+    - Windows XP : 0
+    - Windows 7 : 0
+    - Windows 11 : 0
+    - macOS : 1
+    - Debian : 2
+    - Ubuntu : 2
+*/
+
 let mode;
 const os = prompt('Quel est le système d\'exploitation ?');
 
 // -------------------------------- //
-// Solution 1
+// Solution 1 - Mouais ok bof
 if(os === 'Windows XP') {
     mode = 0;
 } else if (os === 'Windows 7') {
@@ -19,7 +34,7 @@ if(os === 'Windows XP') {
     mode = 2;
 }
 
-// Solution 2
+// Solution 2 - Pas mal
 switch (os) {
   case 'Windows XP':
       mode = 0;
@@ -42,7 +57,7 @@ switch (os) {
       mode = 2;
 }
 
-// Solution 3
+// Solution 3 - Pro Gamer
 switch (os) {
   case 'Windows XP':
   case 'Windows 7':
@@ -57,7 +72,7 @@ switch (os) {
       mode = 2;
 }
 
-// Solution 4
+// Solution 4 - Simple et clair
 if ( os === 'Windows XP' || os === 'Windows 7' || os === 'Windows 11') {
   mode = 0;
 } else if ( os === 'macOS') {
@@ -65,10 +80,6 @@ if ( os === 'Windows XP' || os === 'Windows 7' || os === 'Windows 11') {
 } else {
   mode = 2;
 }
-
-// ET => &&
-// OU => ||
-
 
 // ------------------------------------- //
 console.log('Le mode d\'affichage est', mode);
