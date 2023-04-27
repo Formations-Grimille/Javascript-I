@@ -1,11 +1,17 @@
-// var firstname = prompt("Quel est votre prénom ?");
-// var lastname = prompt("Quel est votre nom ?");
-// var age = prompt("Quel est votre age ?");
-var age = 29;
-// console.log("Bonjour " + firstname + " " + lastname);
-console.log("Vous avez " + age + " ans.");
-console.log(age);
+/*
+------------------------------------------------------
+TP 3: Dynamiser notre programme - Partie 2
+------------------------------------------------------
 
-var qqch;
+- Ajouter des variables pour le nom, le prénom et l'âge de l'utilisateur du programme.
+- Afficher les informations de l'utilisateur dans la console.
+*/
 
-console.log(qqch);
+// Écrit par Mickaël Dhainaut, le 20/04/23
+var firstname = prompt("Quel est votre prénom ?");
+var lastname = prompt("Quel est votre nom ?");
+var age = prompt("Quel est votre age ?");
+
+// Affiche mon nom prénom.
+console.log("Bonjour je m'appelle " + firstname + " " + lastname +".");
+console.log("J'ai " + age + " ans.");
