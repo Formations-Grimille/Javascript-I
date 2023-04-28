@@ -1,11 +1,17 @@
-// -- Double boucle (Un seul console.log)-- //
-/**
- * OK
- * OOK
- * OOOK
- * OOOOK
- * OOOOOK
- */
+/*
+------------------------------------------------------
+TP 13 : Ça parait si simple, et pourtant ...
+------------------------------------------------------
+
+- Écrire un programme qui affiche : 
+  OK
+  OOK
+  OOOK
+  OOOOK
+  OOOOOK
+ 
+- Contrainte, un seul console.log à la dernière des dernières ligne du programme.
+*/
 
 var display = "";
 
