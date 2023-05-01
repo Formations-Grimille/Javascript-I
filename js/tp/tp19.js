@@ -1,3 +1,11 @@
+/*
+------------------------------------------------------
+TP 19: La moyenne d'âge des utilisateurs premium
+------------------------------------------------------
+
+- Créer une liste d'utilisateur (nom, age, premium) et calculer la moyenne d'âge de nos utilisateurs premium seulement.
+*/
+
 var users = [
   {
     name: "Martine",

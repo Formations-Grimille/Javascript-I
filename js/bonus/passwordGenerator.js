@@ -1,4 +1,15 @@
-var alphabet = "abcdefghijklmnopqrstuvwxyz";
+/*
+------------------------------------------------------
+TP Bonus : Générer des mots de passe
+------------------------------------------------------
+
+- Demander la longueur du mot de passe à l'utilisateur
+- Lui donner le mot de passe généré
+- Bonus du bonus : Ajouter des caractères spéciaux et majuscules au générateur.
+*/
+
+
+var alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-*/$%:.;?,!@";
 var passwordLength = Number(prompt("Quelle longueur de mot de passe souhaitez-vous ?"))
 var password = "";
 

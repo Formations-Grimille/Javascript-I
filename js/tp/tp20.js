@@ -1,3 +1,13 @@
+/*
+------------------------------------------------------
+TP 20: Des fonctions
+------------------------------------------------------
+
+- Écrire une fonction de calcul de périmètre d'un cercle puis d'un rectangle ( 2 fonctions)
+- Écrire une fonction de calcul d'aire d'un cercle puis d'un rectangle ( 2 fonctions)
+- Appeler les fonctions avec des paramètres et afficher le résultat dans la console.
+*/
+
 function calcPerimeterRect(longueur, largeur) {
   return (longueur + largeur) * 2;
 }

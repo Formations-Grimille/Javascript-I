@@ -1,6 +1,6 @@
 /*
 ------------------------------------------------------
-TP 18: Jeu : Le panier boutique
+TP 18: Le panier boutique
 ------------------------------------------------------
 
 - On dispose d'un site e-commerce et on vous demande de programmer l'ajout et la suppression des articles au panier selon le diagramme décisionnel en annexe (cart.jpeg).
