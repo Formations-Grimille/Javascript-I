@@ -1,3 +1,14 @@
+/*
+------------------------------------------------------
+TP 18: Jeu : Le panier boutique
+------------------------------------------------------
+
+- On dispose d'un site e-commerce et on vous demande de programmer l'ajout et la suppression des articles au panier selon le diagramme décisionnel en annexe (cart.jpeg).
+- L'utilisateur ajoute des articles dans son panier tant qu'il n'a pas écrit "fin"
+- On affiche le panier, puis l'utilisateur choisi s'il veut supprimer un article, puis ajouter un article, puis rechercher un article
+- À la fin, l'utilisateur est envoyé vers la page de paiement (On utilise alert)
+*/
+
 var cart = [];
 var input;
 
